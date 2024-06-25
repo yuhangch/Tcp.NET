@@ -222,7 +222,7 @@ Signatures:
 
 Example non-SSL server:
 ``` c#
-    ITcpNETServer server = new TcpNETServer(new ParamsTcpServer(8989, "\r\n", connectionSuccesString:"Connected Successfully"));
+    ITcpNETServer server = new TcpNETServer(new ParamsTcpServer(8989, "\r\n", connectionSuccessString:"Connected Successfully"));
 ```
 
 Example SSL server:
